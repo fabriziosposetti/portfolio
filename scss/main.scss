@@ -2,7 +2,7 @@
 @import 'menu';
 
 
-*{
+* {
  box-sizing: border-box;
 }
 
@@ -72,11 +72,12 @@ main {
            margin-top: 20vh;
        } 
     }
+
 }
 
 .about-info {
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 20px;
     grid-template-areas: 
     'bioimage bio bio'
     'job1 job2 job3';
@@ -188,5 +189,6 @@ main {
     color: set-text-color($primary-color);
     height: 60px;
 }
+
 
 @import 'mobile';
