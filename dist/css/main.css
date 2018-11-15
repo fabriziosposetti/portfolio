@@ -281,5 +281,11 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10 vh; }
+  #name {
+    font-size: 5rem; }
+  main#contact .boxes {
+    word-break: break-word; }
+    main#contact .boxes .info {
+      font-size: 1.6rem; }
   .projects {
     grid-template-columns: 1fr; } }

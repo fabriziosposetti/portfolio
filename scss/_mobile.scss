@@ -71,6 +71,17 @@
         margin-top: 10 vh;
     }
 
+    #name {
+        font-size: 5rem;
+    }
+
+    main#contact .boxes {
+        word-break: break-word;
+        .info {
+            font-size: 1.6rem;
+        }
+    }
+
     .projects {
         grid-template-columns: 1fr;
     }
